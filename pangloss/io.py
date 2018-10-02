@@ -2,7 +2,8 @@
 
 import pangloss
 
-import os,cPickle,atpy
+import os,cPickle
+import astropy.table as atpy
 
 # ======================================================================
 

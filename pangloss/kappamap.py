@@ -1,6 +1,7 @@
 
 import numpy, os, string
-import struct, pyfits
+import struct
+import astropy.io.fits as pyfits
 import cPickle
 
 arcmin2rad = (1.0/60.0)*numpy.pi/180.0
